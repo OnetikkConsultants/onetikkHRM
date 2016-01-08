@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f7864f40-c1b6-49fe-b71f-97ffdfbec717" ChangeDateTime="01/07/2016 09:18:28">
+    <Property Name="ElementName" Value="[dbo].[Account].[Employee_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EmployeeName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cb670fff-480e-4a80-bd58-74f2e929a740" ChangeDateTime="01/07/2016 09:19:01">
+    <Property Name="ElementName" Value="[dbo].[Account].[Depa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Department" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9826aa82-01ea-4854-9641-dfe2365877ab" ChangeDateTime="01/07/2016 09:36:36">
+    <Property Name="ElementName" Value="[dbo].[TimeSheet].[Totla]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeSheet]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotlaHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4f192b7a-2b2e-472c-a681-cdcb188c3513" ChangeDateTime="01/07/2016 09:46:26">
+    <Property Name="ElementName" Value="[dbo].[TaskAssignment].[EmpId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TaskAssignment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TaskId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="44f1bc79-0db9-4ec4-bff3-dabdbf1c1207" ChangeDateTime="01/07/2016 09:58:00">
+    <Property Name="ElementName" Value="[dbo].[Projects].[LAnguageName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Projects]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LanguageName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="00344a7c-be98-4b0d-ba88-2f942d1256c4" ChangeDateTime="01/07/2016 09:58:27">
+    <Property Name="ElementName" Value="[dbo].[Projects].[LanguageName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Projects]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Technolog" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d227f49c-5ee7-4ef4-a52c-8c07a6e8abe6" ChangeDateTime="01/07/2016 09:59:20">
+    <Property Name="ElementName" Value="[dbo].[Projects].[Technolog]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Projects]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Technology" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a52c5760-3908-466c-bf89-bec8216557cc" ChangeDateTime="01/07/2016 10:49:27">
+    <Property Name="ElementName" Value="[dbo].[AccountDetails].[N]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AccountDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Nleaves" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3cde8b8d-21f6-4974-ac8d-380ebf03585b" ChangeDateTime="01/07/2016 11:12:14">
+    <Property Name="ElementName" Value="[dbo].[Leave].[LeaveType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Leave]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LeaveId" />
+  </Operation> 
+</Operations>

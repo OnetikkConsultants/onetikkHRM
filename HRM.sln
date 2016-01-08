@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9245F2F2-8864-4750-976D-FD18068456AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C516E46E-AE9D-4A7E-9C83-51C14E5AFBBD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HRM", "src\HRM\HRM.xproj", "{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2DD0EB58-CD8B-407E-AA80-185F1B1B3750}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "NuGet", "..\Dev\BICC\.nuget\NuGet.exe", "{39052BE2-A339-470D-A238-9A97397A7B25}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = D:\Factory\Dev\BICC\.nuget\NuGet.exe
+		RemoteMachine = ONETIKK
+		StartingDirectory = D:\Factory\Dev\BICC\.nuget
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HRM.Database", "HRM.Database\HRM.Database.sqlproj", "{DF844631-B4D9-47C6-9A3A-254CA9C67695}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HRM.Web", "src\HRM.Web\HRM.Web.xproj", "{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E}.Release|x86.Build.0 = Release|Any CPU
+		{39052BE2-A339-470D-A238-9A97397A7B25}.Debug|Any CPU.ActiveCfg = Release|x86
+		{39052BE2-A339-470D-A238-9A97397A7B25}.Debug|x86.ActiveCfg = Release|x86
+		{39052BE2-A339-470D-A238-9A97397A7B25}.Release|Any CPU.ActiveCfg = Release|x86
+		{39052BE2-A339-470D-A238-9A97397A7B25}.Release|x86.ActiveCfg = Release|x86
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Release|x86.Build.0 = Release|Any CPU
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695}.Release|x86.Deploy.0 = Release|Any CPU
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}.Debug|x86.Build.0 = Debug|Any CPU
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB3A9D60-788F-408A-9A8A-00AE1E96AB7E} = {9245F2F2-8864-4750-976D-FD18068456AF}
+		{2DD0EB58-CD8B-407E-AA80-185F1B1B3750} = {9245F2F2-8864-4750-976D-FD18068456AF}
+		{39052BE2-A339-470D-A238-9A97397A7B25} = {2DD0EB58-CD8B-407E-AA80-185F1B1B3750}
+		{DF844631-B4D9-47C6-9A3A-254CA9C67695} = {9245F2F2-8864-4750-976D-FD18068456AF}
+		{0B222B3F-DCF6-466F-98C3-EECBF85DD3C4} = {9245F2F2-8864-4750-976D-FD18068456AF}
+	EndGlobalSection
+EndGlobal
